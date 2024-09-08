@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://txs.github.io/soft-tennis-guide',
+	site: 'https://txs.github.io',
 	base: 'soft-tennis-guide',
 	integrations: [
 		starlight({

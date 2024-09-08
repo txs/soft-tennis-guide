@@ -1,36 +1,41 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: 歡迎來到軟式網球手冊
+description: 開始探索軟式網球的世界。
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: 恭喜您開始了解軟式網球的奧妙！
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/soft-tennis.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: 基礎技巧指南
+      link: /preface
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## 下一步
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<a href="/introduction/soft-vs-hard-tennis/" style="text-decoration: none; color: inherit;">
+		<Card 
+			title="什麼是軟式網球？" 
+			icon="open-book" 
+			href="/introduction/soft-vs-hard-tennis/"
+		>
+			了解軟式網球與硬式網球的主要差異，包括球拍、球、比賽規則等方面。
+		</Card>
+	</a>
+	<Card title="學習基本規則" icon="open-book">
+		了解軟式網球的基本規則和計分方式。
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="掌握基礎技巧" icon="pencil">
+		學習發球、接球和各種擊球技巧。
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="選擇合適裝備" icon="setting">
+		了解如何選擇適合自己的球拍和球鞋。
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="參與比賽" icon="add-document">
+		尋找當地的軟式網球俱樂部或比賽機會。
 	</Card>
 </CardGrid>

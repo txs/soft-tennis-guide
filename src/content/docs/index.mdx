@@ -8,7 +8,7 @@ hero:
     file: ../../assets/soft-tennis.webp
   actions:
     - text: 基礎技巧指南
-      link: /preface
+      link: /soft-tennis-guide/preface
       icon: right-arrow
 ---
 
@@ -17,25 +17,33 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 ## 下一步
 
 <CardGrid stagger>
-	<a href="/introduction/soft-vs-hard-tennis/" style="text-decoration: none; color: inherit;">
+	<a href="/soft-tennis-guide/introduction/soft-vs-hard-tennis/" style="text-decoration: none; color: inherit;">
 		<Card 
 			title="什麼是軟式網球？" 
 			icon="open-book" 
-			href="/introduction/soft-vs-hard-tennis/"
+			href="/soft-tennis-guide/introduction/soft-vs-hard-tennis/"
 		>
 			了解軟式網球與硬式網球的主要差異，包括球拍、球、比賽規則等方面。
 		</Card>
 	</a>
-	<Card title="學習基本規則" icon="open-book">
-		了解軟式網球的基本規則和計分方式。
-	</Card>
-	<Card title="掌握基礎技巧" icon="pencil">
-		學習發球、接球和各種擊球技巧。
-	</Card>
-	<Card title="選擇合適裝備" icon="setting">
-		了解如何選擇適合自己的球拍和球鞋。
-	</Card>
-	<Card title="參與比賽" icon="add-document">
-		尋找當地的軟式網球俱樂部或比賽機會。
-	</Card>
+	<a href="/soft-tennis-guide/basics/rules" style="text-decoration: none; color: inherit;">
+		<Card title="學習基本規則" icon="open-book">
+			了解軟式網球的基本規則和計分方式。
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/basics/scores" style="text-decoration: none; color: inherit;">
+		<Card title="掌握基礎技巧" icon="pencil">
+			學習發球、接球和各種擊球技巧。
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/appendix/recommended-resources" style="text-decoration: none; color: inherit;">
+		<Card title="選擇合適裝備" icon="setting">
+			了解如何選擇適合自己的球拍和球鞋。
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/appendix/recommended-resources" style="text-decoration: none; color: inherit;">
+		<Card title="參與比賽" icon="add-document">
+			尋找當地的軟式網球俱樂部或比賽機會。
+		</Card>
+	</a>
 </CardGrid>

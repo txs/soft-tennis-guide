@@ -3,7 +3,7 @@ const { brands } = Astro.props;
 ---
 
 <div class="brand-grid">
-  {brands.map((brand) => (
+  {brands.map((brand: any) => (
     <div class="brand-item">
       <img src={`/images/brands/${brand.logo}`} alt={`${brand.name} logo`} />
       <span>{brand.name}</span>

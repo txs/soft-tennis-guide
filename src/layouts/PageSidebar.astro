@@ -1,0 +1,31 @@
+---
+import TableOfContents from './TableOfContents.astro';
+import MobileTableOfContents from './MobileTableOfContents.astro';
+---
+
+<aside class="page-sidebar">
+  <!-- Desktop view: render the Table of Contents -->
+  <TableOfContents />
+
+  <!-- Mobile view: render the Table of Contents in a dropdown -->
+  <MobileTableOfContents />
+
+  <!-- Add Giscus comments widget -->
+  <section id="comments">
+    <h2>Comments</h2>
+    <div id="giscus"></div>
+    <script src="https://giscus.app/client.js"
+            data-repo="your-username/your-repo"
+            data-repo-id="YOUR_REPO_ID"
+            data-category="General"
+            data-category-id="YOUR_CATEGORY_ID"
+            data-mapping="pathname"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-theme="light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+</aside>

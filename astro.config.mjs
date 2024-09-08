@@ -5,7 +5,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://txs.github.com/soft-tennis-guide',
-	base: '/soft-tennis-guide',
+	base: 'soft-tennis-guide',
 	integrations: [
 		starlight({
 			title: '軟式網球入門指南 Intro to Soft Tennis 101',

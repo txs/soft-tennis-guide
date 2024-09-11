@@ -98,7 +98,10 @@ export default defineConfig({
 			customCss: [
 				'./src/styles/soft-tennis.css',
 			],
-			// Other valid Starlight options...
+			components: {
+				Footer: './src/components/Footer.astro',
+				PageSidebar: './src/components/PageSidebar.astro',
+			},
 		}),
 	],
 });

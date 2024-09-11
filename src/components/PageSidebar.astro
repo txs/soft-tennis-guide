@@ -1,0 +1,21 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/PageSidebar.astro';
+import GiscusComments from './GiscusComments.astro';
+
+const { entry } = Astro.props;
+const isDocPage = entry.data.template !== 'splash';
+---
+
+<Default {...Astro.props} />
+
+{isDocPage && (
+  <div class="giscus-wrapper-sidebar"></div>
+)}
+
+<style>
+  .giscus-wrapper-sidebar {
+    max-width: calc(((100vw - var(--sl-sidebar-width) - 2 * var(--sl-content-pad-x) - 2 * var(--sl-sidebar-pad-x)) * 0.25));
+    padding: 1rem;
+  }
+</style>

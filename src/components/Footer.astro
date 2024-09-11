@@ -1,0 +1,15 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/Footer.astro';
+import GiscusComments from './GiscusComments.astro';
+
+const { entry } = Astro.props;
+const isDocPage = entry.data.template !== 'splash';
+---
+
+<Default {...Astro.props} />
+
+{isDocPage && (
+  <div class="giscus-wrapper-footer"></div>
+  <GiscusComments />
+)}

@@ -21,6 +21,7 @@
 
       const htmlElement = document.documentElement;
       const currentTheme = htmlElement.dataset.theme;
+      // console.log(currentTheme);
       script.setAttribute('data-theme', currentTheme === 'dark' ? 'dark' : 'light');
 
       return script;
@@ -28,7 +29,6 @@
 
     function loadGiscus() {
       const script = createGiscusScript();
-
       if(window.innerWidth >= 1152) {
         const sidebarWrapper = document.querySelector('.giscus-wrapper-sidebar');
         if (sidebarWrapper) {
@@ -51,7 +51,7 @@
             const newTheme = htmlElement.dataset.theme;
             const giscusFrame = document.querySelector('iframe.giscus-frame');
             if (giscusFrame) {
-              giscusFrame.contentWindow.postMessage(
+              (giscusFrame as HTMLIFrameElement).contentWindow?.postMessage(
                 { giscus: { setConfig: { theme: newTheme === 'dark' ? 'dark' : 'light' } } },
                 'https://giscus.app'
               );
@@ -68,20 +68,41 @@
       const footerWrapper = document.querySelector('.giscus-wrapper-footer');
       const giscusElement = document.querySelector('.giscus');
 
+      const htmlElement = document.documentElement;
+      const currentTheme = htmlElement.dataset.theme;
+
+      if (giscusElement) {
+        const giscusFrame = giscusElement.querySelector('iframe.giscus-frame');
+        if (giscusFrame) {
+          const iframeDocument = (giscusFrame as HTMLIFrameElement).contentDocument;
+          if (iframeDocument) {
+            const iframeHtmlElement = iframeDocument.documentElement;
+            const iframeTheme = iframeHtmlElement.getAttribute('data-theme');
+            const themeColor = iframeTheme === 'dark' ? 'dark' : 'light';
+            (giscusFrame as HTMLIFrameElement).contentWindow?.postMessage(
+              { giscus: { setConfig: { theme: themeColor } } },
+              'https://giscus.app'
+            );
+          }
+        }
+      }
+
       if (window.innerWidth >= 1152) {
         if (giscusElement && footerWrapper && footerWrapper.contains(giscusElement)) {
           // Move from footer to sidebar
+          console.log('move from footer to sidebar');
           sidebarWrapper?.appendChild(giscusElement);
+          loadGiscus();
         } else if (!giscusElement) {
-          // Load Giscus if it doesn't exist
           loadGiscus();
         }
       } else {
         if (giscusElement && sidebarWrapper && sidebarWrapper.contains(giscusElement)) {
           // Move from sidebar to footer
+          console.log('move from sidebar to footer');
           footerWrapper?.appendChild(giscusElement);
+          loadGiscus();
         } else if (!giscusElement) {
-          // Load Giscus if it doesn't exist
           loadGiscus();
         }
       }

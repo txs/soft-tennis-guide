@@ -9,6 +9,24 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: '軟式網球入門指南 Intro to Soft Tennis 101',
+			head:[
+				{
+					tag: 'script',
+					attrs: {
+						async: true,
+						src: 'https://www.googletagmanager.com/gtag/js?id=G-2VKKN77WMF',
+					},
+				},
+				{
+					tag: 'script',
+					children: `
+						window.dataLayer = window.dataLayer || [];
+						function gtag(){dataLayer.push(arguments);}
+						gtag('js', new Date());
+						gtag('config', 'G-2VKKN77WMF');
+					`,
+				},
+			],
 			social: {
 				github: 'https://github.com/txs/soft-tennis-guide',
 			},

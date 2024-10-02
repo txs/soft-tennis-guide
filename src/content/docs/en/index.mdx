@@ -1,0 +1,49 @@
+---
+title: Welcome to Soft Tennis Guide
+description: Start exploring the world of soft tennis.
+template: splash
+hero:
+  tagline: Congratulations on starting to learn about the wonders of soft tennis!
+  image:
+    file: ../../../assets/soft-tennis.webp
+  actions:
+    - text: Basic Skills Guide
+      link: /soft-tennis-guide/en/preface
+      icon: right-arrow
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Next Steps
+
+<CardGrid stagger>
+	<a href="/soft-tennis-guide/introduction/soft-vs-hard-tennis/" style="text-decoration: none; color: inherit;">
+		<Card 
+			title="What is Soft Tennis?" 
+			icon="open-book" 
+			href="/soft-tennis-guide/introduction/soft-vs-hard-tennis/"
+		>
+			Learn about the main differences between soft tennis and hard tennis, including rackets, balls, and game rules.
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/basics/rules" style="text-decoration: none; color: inherit;">
+		<Card title="Learn Basic Rules" icon="open-book">
+			Learn the basic rules and scoring system of soft tennis.
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/basics/scores" style="text-decoration: none; color: inherit;">
+		<Card title="Master Basic Skills" icon="pencil">
+			Learn how to serve, receive, and hit the ball.
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/appendix/recommended-resources" style="text-decoration: none; color: inherit;">
+		<Card title="Choose Suitable Equipment" icon="setting">
+			Learn how to choose the right racket and shoes for yourself.
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/appendix/recommended-resources" style="text-decoration: none; color: inherit;">
+		<Card title="Find Local Clubs or Competitions" icon="add-document">
+			Find local soft tennis clubs or competitions.
+		</Card>
+	</a>
+</CardGrid>

@@ -1,0 +1,49 @@
+---
+title: 欢迎来到软式网球指南
+description: 开始探索软式网球的世界。
+template: splash
+hero:
+  tagline: 恭喜您开始了解软式网球的奥妙！
+  image:
+    file: ../../../assets/soft-tennis.webp
+  actions:
+    - text: 基础技巧指南
+      link: /soft-tennis-guide/cn/preface
+      icon: right-arrow
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## 下一步
+
+<CardGrid stagger>
+	<a href="/soft-tennis-guide/introduction/soft-vs-hard-tennis/" style="text-decoration: none; color: inherit;">
+		<Card 
+			title="什么是软式网球？" 
+			icon="open-book" 
+			href="/soft-tennis-guide/introduction/soft-vs-hard-tennis/"
+		>
+			了解软式网球与硬式网球的主要差异，包括球拍、球、比赛规则等方面。
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/basics/rules" style="text-decoration: none; color: inherit;">
+		<Card title="学习基本规则" icon="open-book">
+			了解软式网球的基本规则和计分方式。
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/basics/scores" style="text-decoration: none; color: inherit;">
+		<Card title="掌握基础技巧" icon="pencil">
+			学习发球、接球和各种击球技巧。
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/appendix/recommended-resources" style="text-decoration: none; color: inherit;">
+		<Card title="选择合适装备" icon="setting">
+			了解如何选择适合自己的球拍和球鞋。
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/appendix/recommended-resources" style="text-decoration: none; color: inherit;">
+		<Card title="参与比赛" icon="add-document">
+			寻找当地的软式网球俱乐部或比赛机会。
+		</Card>
+	</a>
+</CardGrid>

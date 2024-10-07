@@ -12,6 +12,7 @@ export default defineConfig({
 				'zh-TW': '軟式網球入門指南 Intro to Soft Tennis 101',
 				en: 'Intro to Soft Tennis 101',
 				'zh-CN': '软式网球入门指南 Intro to Soft Tennis 101',
+				fr: 'Guide de débutant en Soft Tennis',
 			  },
 			defaultLocale: 'root', // optional
 			locales: {
@@ -26,6 +27,10 @@ export default defineConfig({
 			  'zh-cn': {
 				label: '简体中文',
 				lang: 'zh-CN',
+			  },
+			  'fr': {
+				label: 'Français',
+				lang: 'fr',
 			  },
 			},
 			head:[
@@ -57,6 +62,7 @@ export default defineConfig({
 						en: 'Preface',
 						'zh-CN': '前言',
 						'zh-tw': '前言',
+						fr: 'Préface',
 					},
 				 },
 				{
@@ -65,6 +71,7 @@ export default defineConfig({
 						en: 'Introduction to Soft Tennis',
 						'zh-CN': '软式网球入门',
 						'zh-tw': '軟式網球入門',
+						fr: 'Introduction au Soft Tennis',
 					},
 					items: [
 						{ 
@@ -74,6 +81,7 @@ export default defineConfig({
 								en: 'Differences Between Soft and Hard Tennis',
 								'zh-CN': '软网硬网的差异',
 								'zh-tw': '軟網硬網的差異',
+								fr: 'Différences entre le Soft Tennis et le Tennis Dur',
 							},
 						},
 						{ 
@@ -83,6 +91,7 @@ export default defineConfig({
 								en: 'History of Soft Tennis',
 								'zh-CN': '软式网球的历史',
 								'zh-tw': '軟式網球的歷史',
+								fr: 'Histoire du Soft Tennis',
 							},
 						},
 						{ 
@@ -92,6 +101,7 @@ export default defineConfig({
 								en: 'The Charm of Soft Tennis',
 								'zh-CN': '软式网球的魅力',
 								'zh-tw': '軟式網球的魅力',
+								fr: 'Le Charme du Soft Tennis',
 							},
 						},
 					],
@@ -102,6 +112,7 @@ export default defineConfig({
 						en: 'Learning Basic Rules',
 						'zh-CN': '学习基本规则',
 						'zh-tw': '學習基本規則',
+						fr: 'Apprendre les règles de base',
 					},
 					items: [
 						{ 
@@ -111,6 +122,7 @@ export default defineConfig({
 								en: 'Basic Rules of Soft Tennis',
 								'zh-CN': '软式网球的基本规则',
 								'zh-tw': '軟式網球的基本規則',
+								fr: 'Règles de base du Soft Tennis',
 							},
 						},
 						{ 
@@ -120,6 +132,7 @@ export default defineConfig({
 								en: 'Scoring System of Soft Tennis',
 								'zh-CN': '软式网球的计分方式',
 								'zh-tw': '軟式網球的計分方式',
+								fr: 'Système de notation du Soft Tennis',
 							},
 						},
 					],
@@ -130,6 +143,7 @@ export default defineConfig({
 						en: 'Chapter 1: Warm-up and Preparation Activities',
 						'zh-CN': '第1章：热身与准备活动',
 						'zh-tw': '第1章：熱身與準備活動',
+						fr: 'Chapitre 1 : Préparation et activités de préchauffage',
 					},
 					items: [
 						{ 
@@ -139,6 +153,7 @@ export default defineConfig({
 								en: 'Importance of Warm-up',
 								'zh-CN': '热身的重要性',
 								'zh-tw': '熱身的重要性',
+								fr: 'Importance du préchauffage',
 							},
 						},
 						{ 
@@ -148,6 +163,7 @@ export default defineConfig({
 								en: 'Coordination and Flexibility Training',
 								'zh-CN': '协调性与柔韧性训练',
 								'zh-tw': '協調性與柔韌性訓練',
+								fr: 'Entraînement de coordination et de souplesse',
 							},
 						},
 						{ 
@@ -157,6 +173,7 @@ export default defineConfig({
 								en: 'Basic Warm-up Exercises',
 								'zh-CN': '基本热身动作',
 								'zh-tw': '基本熱身動作',
+								fr: 'Exercices de préchauffage de base',
 							},
 						},
 					],
@@ -167,6 +184,7 @@ export default defineConfig({
 						en: 'Chapter 2: Basic Movements and Techniques',
 						'zh-CN': '第2章：基本动作与技巧',
 						'zh-tw': '第2章：基本動作與技巧',
+						fr: 'Chapitre 2 : Mouvements et techniques de base',
 					},
 					items: [
 						{ 
@@ -176,6 +194,7 @@ export default defineConfig({
 								en: 'Types of Grips',
 								'zh-CN': '握拍方式',
 								'zh-tw': '握拍方式',
+								fr: 'Types de griffes',
 							},
 						},
 						{ 
@@ -185,6 +204,7 @@ export default defineConfig({
 								en: 'Basic Stance and Footwork',
 								'zh-CN': '基本站姿与步法',
 								'zh-tw': '基本站姿與步法',
+								fr: 'Posture et déplacement de base',
 							},
 						},
 						{ 
@@ -194,6 +214,7 @@ export default defineConfig({
 								en: 'Stroking Techniques',
 								'zh-CN': '击球动作',
 								'zh-tw': '擊球動作',
+								fr: 'Techniques de frappe',
 							},
 						},
 					],
@@ -204,6 +225,7 @@ export default defineConfig({
 						en: 'Chapter 3: Serving and Receiving',
 						'zh-CN': '第3章：发球与接发球',
 						'zh-tw': '第3章：發球與接發球',
+						fr: 'Chapitre 3 : Service et réception',
 					},
 					items: [
 						{ 
@@ -213,6 +235,7 @@ export default defineConfig({
 								en: 'Serving Techniques',
 								'zh-CN': '发球技巧',
 								'zh-tw': '發球技巧',
+								fr: 'Techniques de service',
 							},
 						},
 						{ 
@@ -222,6 +245,7 @@ export default defineConfig({
 								en: 'Receiving Strategies',
 								'zh-CN': '接发球要点',
 								'zh-tw': '接發球要點',
+								fr: 'Stratégies de réception',
 							},
 						},
 					],
@@ -232,6 +256,7 @@ export default defineConfig({
 						en: 'Chapter 4: Volleying and Defending',
 						'zh-CN': '第4章：网前截击与防守',
 						'zh-tw': '第4章：網前截擊與防守',
+						fr: 'Chapitre 4 : Volée et défense',
 					},
 					items: [
 						{ 
@@ -241,6 +266,7 @@ export default defineConfig({
 								en: 'Volley Techniques',
 								'zh-CN': '截击技巧',
 								'zh-tw': '截擊技巧',
+								fr: 'Techniques de volée',
 							},
 						},
 						{ 
@@ -250,6 +276,7 @@ export default defineConfig({
 								en: 'Defensive Strategies',
 								'zh-CN': '防守策略',
 								'zh-tw': '防守策略',
+								fr: 'Stratégies de défense',
 							},
 						},
 					],
@@ -260,6 +287,7 @@ export default defineConfig({
 						en: 'Chapter 5: Advanced Skills and Tactics',
 						'zh-CN': '第5章：进阶技巧与战术',
 						'zh-tw': '第5章：進階技巧與戰術',
+						fr: 'Chapitre 5 : Compétences avancées et tactiques',
 					},
 					items: [
 						{ 
@@ -269,6 +297,7 @@ export default defineConfig({
 								en: 'Advanced Skills',
 								'zh-CN': '进阶技巧',
 								'zh-tw': '進階技巧',
+								fr: 'Compétences avancées',
 							},
 						},
 						{ 
@@ -278,6 +307,7 @@ export default defineConfig({
 								en: 'Tactical Applications',
 								'zh-CN': '战术运用',
 								'zh-tw': '戰術運用',
+								fr: 'Applications tactiques',
 							},
 						},
 					],
@@ -288,6 +318,7 @@ export default defineConfig({
 						en: 'Chapter 6: Singles and Doubles Matches',
 						'zh-CN': '第6章：单打与双打比赛',
 						'zh-tw': '第6章：單打與雙打比賽',
+						fr: 'Chapitre 6 : Jeux simples et doubles',
 					},
 					items: [
 						{ 
@@ -297,6 +328,7 @@ export default defineConfig({
 								en: 'Singles Techniques',
 								'zh-CN': '单打技术',
 								'zh-tw': '單打技術',
+								fr: 'Techniques de simple',
 							},
 						},
 						{ 
@@ -306,6 +338,7 @@ export default defineConfig({
 								en: 'Doubles Coordination',
 								'zh-CN': '双打配合',
 								'zh-tw': '雙打配合',
+								fr: 'Coordination de double',
 							},
 						},
 					],
@@ -316,6 +349,7 @@ export default defineConfig({
 						en: 'Chapter 7: Training and Match Preparation',
 						'zh-CN': '第7章：训练与比赛准备',
 						'zh-tw': '第7章：訓練與比賽準備',
+						fr: 'Chapitre 7 : Entraînement et préparation de match',
 					},
 					items: [
 						{ 
@@ -325,6 +359,7 @@ export default defineConfig({
 								en: 'Comprehensive Skill Training',
 								'zh-CN': '综合技能训练',
 								'zh-tw': '綜合技能訓練',
+								fr: 'Entraînement de compétences complètes',
 							},
 						},
 						{ 
@@ -334,6 +369,7 @@ export default defineConfig({
 								en: 'Match Mindset and Preparation',
 								'zh-CN': '比赛心态与准备',
 								'zh-tw': '比賽心態與準備',
+								fr: 'Mentalité de match et préparation',
 							},
 						},
 					],
@@ -344,6 +380,7 @@ export default defineConfig({
 						en: 'Conclusion',
 						'zh-CN': '结论',
 						'zh-tw': '結論',
+						fr: 'Conclusion',
 					},
 					items: [
 						{ 
@@ -353,6 +390,7 @@ export default defineConfig({
 								en: 'The Charm and Challenges of Soft Tennis',
 								'zh-CN': '软式网球的魅力与挑战',
 								'zh-tw': '軟式網球的魅力與挑戰',
+								fr: 'Charme et défis du Soft Tennis',
 							},
 						},
 						{ 
@@ -362,6 +400,7 @@ export default defineConfig({
 								en: 'The Future of Tennis Path',
 								'zh-CN': '未来的网球之路',
 								'zh-tw': '未來的網球之路',
+								fr: 'Le futur du tennis',
 							},
 						},
 					],
@@ -372,6 +411,7 @@ export default defineConfig({
 						en: 'Appendix',
 						'zh-CN': '附录',
 						'zh-tw': '附錄',
+						fr: 'Appendice',
 					},
 					items: [
 						{ 
@@ -381,6 +421,7 @@ export default defineConfig({
 								en: 'Frequently Asked Questions',
 								'zh-CN': '常见问题解答',
 								'zh-tw': '常見問題解答',
+								fr: 'Questions fréquemment posées',
 							},
 						},
 						{ 
@@ -390,6 +431,7 @@ export default defineConfig({
 								en: 'Recommended Resources',
 								'zh-CN': '推荐资源',
 								'zh-tw': '推薦資源',
+								fr: 'Ressources recommandées',
 							},
 						},
 					],

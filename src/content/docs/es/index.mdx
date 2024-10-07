@@ -1,0 +1,49 @@
+---
+title: Bienvenido a la Guía de Tenis Suave
+description: Comienza a explorar el mundo del tenis suave.
+template: splash
+hero:
+  tagline: ¡Felicidades por empezar a aprender sobre las maravillas del tenis suave!
+  image:
+    file: ../../../assets/soft-tennis.webp
+  actions:
+    - text: Guía de Habilidades Básicas
+      link: /soft-tennis-guide/es/preface
+      icon: right-arrow
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Próximos Pasos
+
+<CardGrid stagger>
+	<a href="/soft-tennis-guide/es/introduction/soft-vs-hard-tennis/" style="text-decoration: none; color: inherit;">
+		<Card 
+			title="¿Qué es el Tenis Suave?" 
+			icon="open-book" 
+			href="/soft-tennis-guide/es/introduction/soft-vs-hard-tennis/"
+		>
+			Aprende sobre las principales diferencias entre el tenis suave y el tenis duro, incluyendo raquetas, pelotas, y reglas del juego.
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/es/basics/rules" style="text-decoration: none; color: inherit;">
+		<Card title="Aprende las Reglas Básicas" icon="open-book">
+			Aprende las reglas básicas y el sistema de puntuación del tenis suave.
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/es/basics/scores" style="text-decoration: none; color: inherit;">
+		<Card title="Domina las Habilidades Básicas" icon="pencil">
+			Aprende cómo servir, recibir, y golpear la pelota.
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/es/appendix/recommended-resources" style="text-decoration: none; color: inherit;">
+		<Card title="Elige el Equipo Adecuado" icon="setting">
+			Aprende cómo elegir la raqueta y los zapatos adecuados para ti.
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/es/appendix/recommended-resources" style="text-decoration: none; color: inherit;">
+		<Card title="Encuentra Clubes o Competiciones Locales" icon="add-document">
+			Encuentra clubes o competiciones de tenis suave en tu área.
+		</Card>
+	</a>
+</CardGrid>

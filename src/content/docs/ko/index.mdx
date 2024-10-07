@@ -1,0 +1,49 @@
+---
+title: 소프트 테니스 가이드에 오신 것을 환영합니다
+description: 소프트 테니스의 세계를 탐험해 보세요.
+template: splash
+hero:
+  tagline: 소프트 테니스의 신비를 알게 된 것을 축하드립니다!
+  image:
+    file: ../../../assets/soft-tennis.webp
+  actions:
+    - text: 기본 기술 가이드
+      link: /soft-tennis-guide/ko/preface
+      icon: right-arrow
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## 다음 단계
+
+<CardGrid stagger>
+	<a href="/soft-tennis-guide/ko/introduction/soft-vs-hard-tennis/" style="text-decoration: none; color: inherit;">
+		<Card 
+			title="소프트 테니스란 무엇인가요?" 
+			icon="open-book" 
+			href="/soft-tennis-guide/ko/introduction/soft-vs-hard-tennis/"
+		>
+			소프트 테니스와 하드 테니스의 주요 차이점, 라켓, 공, 경기 규칙 등을 알아보세요.
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/ko/basics/rules" style="text-decoration: none; color: inherit;">
+		<Card title="기본 규칙 배우기" icon="open-book">
+			소프트 테니스의 기본 규칙과 점수 계산 방법을 알아보세요.
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/ko/basics/scores" style="text-decoration: none; color: inherit;">
+		<Card title="기본 기술 익히기" icon="pencil">
+			서브, 리시브 및 다양한 타격 기술을 배우세요.
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/ko/appendix/recommended-resources" style="text-decoration: none; color: inherit;">
+		<Card title="적절한 장비 선택하기" icon="setting">
+			자신에게 맞는 라켓과 운동화를 선택하는 방법을 알아보세요.
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/ko/appendix/recommended-resources" style="text-decoration: none; color: inherit;">
+		<Card title="경기 참여하기" icon="add-document">
+			지역의 소프트 테니스 클럽이나 경기 기회를 찾아보세요.
+		</Card>
+	</a>
+</CardGrid>

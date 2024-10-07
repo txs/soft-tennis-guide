@@ -1,0 +1,49 @@
+---
+title: ソフトテニスガイドへようこそ
+description: ソフトテニスの世界を探求し始めましょう。
+template: splash
+hero:
+  tagline: ソフトテニスの奥深さを知り始めたこと、おめでとうございます！
+  image:
+    file: ../../../assets/soft-tennis.webp
+  actions:
+    - text: 基本技術ガイド
+      link: /soft-tennis-guide/ja/preface
+      icon: right-arrow
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## 次のステップ
+
+<CardGrid stagger>
+	<a href="/soft-tennis-guide/ja/introduction/soft-vs-hard-tennis/" style="text-decoration: none; color: inherit;">
+		<Card 
+			title="ソフトテニスとは？" 
+			icon="open-book" 
+			href="/soft-tennis-guide/ja/introduction/soft-vs-hard-tennis/"
+		>
+			ソフトテニスとハードテニスの主な違いについて、ラケット、ボール、試合のルールなどを理解します。
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/ja/basics/rules" style="text-decoration: none; color: inherit;">
+		<Card title="基本ルールを学ぶ" icon="open-book">
+			ソフトテニスの基本ルールと得点方法を理解します。
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/ja/basics/scores" style="text-decoration: none; color: inherit;">
+		<Card title="基本技術を習得する" icon="pencil">
+			サーブ、リターン、およびさまざまな打撃技術を学びます。
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/ja/appendix/recommended-resources" style="text-decoration: none; color: inherit;">
+		<Card title="適切な装備を選ぶ" icon="setting">
+			自分に合ったラケットとシューズの選び方を学びます。
+		</Card>
+	</a>
+	<a href="/soft-tennis-guide/ja/appendix/recommended-resources" style="text-decoration: none; color: inherit;">
+		<Card title="試合に参加する" icon="add-document">
+			地元のソフトテニスクラブや試合の機会を探します。
+		</Card>
+	</a>
+</CardGrid>

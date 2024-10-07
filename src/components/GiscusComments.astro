@@ -14,14 +14,18 @@
       script.setAttribute('data-reactions-enabled', "1");
       script.setAttribute('data-emit-metadata', "1");
       script.setAttribute('data-input-position', "top");
-      script.setAttribute('data-lang', "zh-TW");
+      
       script.setAttribute('data-loading', "lazy");
       script.setAttribute('crossorigin', "anonymous");
       script.async = true;
 
       const htmlElement = document.documentElement;
+      let lang = htmlElement.lang;
+      if (lang === 'ms') {
+        lang = 'en';
+      }
+      script.setAttribute('data-lang', lang || 'en');
       const currentTheme = htmlElement.dataset.theme;
-      // console.log(currentTheme);
       script.setAttribute('data-theme', currentTheme === 'dark' ? 'dark' : 'light');
 
       return script;

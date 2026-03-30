@@ -598,6 +598,35 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Equipment Guide',
+					translations: {
+						'zh-CN': '装备指南',
+						'zh-tw': '裝備指南',
+						fr: 'Guide d\'équipement',
+						es: 'Guía de equipamiento',
+						ru: 'Руководство по экипировке',
+						ms: 'Panduan Peralatan',
+						ja: '用具ガイド',
+						ko: '장비 가이드',
+					},
+					items: [
+						{ 
+							label: 'Soft Tennis Rackets', 
+							link: '/equipment/rackets',
+							translations: {
+								'zh-CN': '软式网球拍介绍',
+								'zh-tw': '軟式網球拍介紹',
+								fr: 'Raquettes de Soft Tennis',
+								es: 'Raquetas de Tenis Suave',
+								ru: 'Ракетки для софт-тенниса',
+								ms: 'Reket Tenis Lembut',
+								ja: 'ソフトテニスラケット紹介',
+								ko: '소프트 테니스 라켓 소개',
+							},
+						},
+					]
+				},
+				{
 					label: 'Appendix',
 					translations: {
 						

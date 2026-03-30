@@ -21,7 +21,7 @@ export default defineConfig({
 			defaultLocale: 'root', // optional
 			locales: {
 			  root: {
-				label: 'Preface',
+				label: 'English',
 				lang: 'en', // lang is required for root locales
 			  },
 			  'zh-tw': {

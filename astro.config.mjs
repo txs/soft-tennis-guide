@@ -4,8 +4,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://txs.github.io',
-	base: '/soft-tennis-guide',
+	site: 'https://soft-tennis.andys.pro',
 	integrations: [
 		starlight({
 			title: {
@@ -640,6 +639,21 @@ export default defineConfig({
 								ms: 'Sumber yang Disyorkan',
 								ja: '推薦資源',
 								ko: '추천 자료',
+							},
+						},
+						{
+							label: '參考資料與延伸閱讀',
+							link: '/appendix/references',
+							translations: {
+								en: 'References and Further Reading',
+								'zh-CN': '参考资料与延伸阅读',
+								'zh-tw': '參考資料與延伸閱讀',
+								fr: 'Références et lectures complémentaires',
+								es: 'Referencias y lecturas adicionales',
+								ru: 'Список литературы',
+								ms: 'Rujukan dan Bacaan Lanjut',
+								ja: '参考文献',
+								ko: '참고 문헌',
 							},
 						},
 					],

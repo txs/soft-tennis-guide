@@ -6,43 +6,43 @@
 
 本指南涵蓋了軟式網球的各個方面，包括：
 
-1. **前言**: 介紹作者背景、寫作動機、本書特色與架構 ([前言](https://txs.github.io/soft-tennis-guide/preface))
+1. **前言**: 介紹作者背景、寫作動機、本書特色與架構 ([前言](https://soft-tennis.andys.pro/preface))
 2. **軟式網球入門**:
-   - [軟網硬網的差異](https://txs.github.io/soft-tennis-guide/introduction/soft-vs-hard-tennis)
-   - [軟式網球的歷史](https://txs.github.io/soft-tennis-guide/introduction/history-of-soft-tennis)
-   - [軟式網球的魅力](https://txs.github.io/soft-tennis-guide/introduction/charm-of-soft-tennis)
+   - [軟網硬網的差異](https://soft-tennis.andys.pro/introduction/soft-vs-hard-tennis)
+   - [軟式網球的歷史](https://soft-tennis.andys.pro/introduction/history-of-soft-tennis)
+   - [軟式網球的魅力](https://soft-tennis.andys.pro/introduction/charm-of-soft-tennis)
 3. **學習基本規則**:
-   - [軟式網球的基本規則](https://txs.github.io/soft-tennis-guide/basics/rules)
-   - [軟式網球的計分方式](https://txs.github.io/soft-tennis-guide/basics/scores)
+   - [軟式網球的基本規則](https://soft-tennis.andys.pro/basics/rules)
+   - [軟式網球的計分方式](https://soft-tennis.andys.pro/basics/scores)
 4. **熱身與準備活動**:
-   - [熱身的重要性](https://txs.github.io/soft-tennis-guide/chapter-1/importance-of-warm-up)
-   - [協調性與柔韌性訓練](https://txs.github.io/soft-tennis-guide/chapter-1/coordination-and-flexibility)
-   - [基本熱身動作](https://txs.github.io/soft-tennis-guide/chapter-1/basic-warm-up-exercises)
+   - [熱身的重要性](https://soft-tennis.andys.pro/chapter-1/importance-of-warm-up)
+   - [協調性與柔韌性訓練](https://soft-tennis.andys.pro/chapter-1/coordination-and-flexibility)
+   - [基本熱身動作](https://soft-tennis.andys.pro/chapter-1/basic-warm-up-exercises)
 5. **基本動作與技巧**:
-   - [握拍方式](https://txs.github.io/soft-tennis-guide/chapter-2/grip-types)
-   - [基本站姿與步法](https://txs.github.io/soft-tennis-guide/chapter-2/stance-and-footwork)
-   - [擊球動作](https://txs.github.io/soft-tennis-guide/chapter-2/stroking-techniques)
+   - [握拍方式](https://soft-tennis.andys.pro/chapter-2/grip-types)
+   - [基本站姿與步法](https://soft-tennis.andys.pro/chapter-2/stance-and-footwork)
+   - [擊球動作](https://soft-tennis.andys.pro/chapter-2/stroking-techniques)
 6. **發球與接發球**:
-   - [發球技巧](https://txs.github.io/soft-tennis-guide/chapter-3/serving-techniques)
-   - [接發球要點](https://txs.github.io/soft-tennis-guide/chapter-3/receiving-strategies)
+   - [發球技巧](https://soft-tennis.andys.pro/chapter-3/serving-techniques)
+   - [接發球要點](https://soft-tennis.andys.pro/chapter-3/receiving-strategies)
 7. **網前截擊與防守**:
-   - [截擊技巧](https://txs.github.io/soft-tennis-guide/chapter-4/volley-techniques)
-   - [防守策略](https://txs.github.io/soft-tennis-guide/chapter-4/defensive-strategies)
+   - [截擊技巧](https://soft-tennis.andys.pro/chapter-4/volley-techniques)
+   - [防守策略](https://soft-tennis.andys.pro/chapter-4/defensive-strategies)
 8. **進階技巧與戰術**:
-   - [進階技巧](https://txs.github.io/soft-tennis-guide/chapter-5/advanced-skills)
-   - [戰術運用](https://txs.github.io/soft-tennis-guide/chapter-5/tactical-applications)
+   - [進階技巧](https://soft-tennis.andys.pro/chapter-5/advanced-skills)
+   - [戰術運用](https://soft-tennis.andys.pro/chapter-5/tactical-applications)
 9. **單打與雙打比賽**:
-   - [單打技術](https://txs.github.io/soft-tennis-guide/chapter-6/singles-techniques)
-   - [雙打配合](https://txs.github.io/soft-tennis-guide/chapter-6/doubles-coordination)
+   - [單打技術](https://soft-tennis.andys.pro/chapter-6/singles-techniques)
+   - [雙打配合](https://soft-tennis.andys.pro/chapter-6/doubles-coordination)
 10. **訓練與比賽準備**:
-    - [綜合技能訓練](https://txs.github.io/soft-tennis-guide/chapter-7/comprehensive-skill-training)
-    - [比賽心態與準備](https://txs.github.io/soft-tennis-guide/chapter-7/match-preparation)
+    - [綜合技能訓練](https://soft-tennis.andys.pro/chapter-7/comprehensive-skill-training)
+    - [比賽心態與準備](https://soft-tennis.andys.pro/chapter-7/match-preparation)
 11. **結論**:
-    - [軟式網球的魅力與挑戰](https://txs.github.io/soft-tennis-guide/conclusion/soft-tennis-charm)
-    - [未來的網球之路](https://txs.github.io/soft-tennis-guide/conclusion/future-tennis-path)
+    - [軟式網球的魅力與挑戰](https://soft-tennis.andys.pro/conclusion/soft-tennis-charm)
+    - [未來的網球之路](https://soft-tennis.andys.pro/conclusion/future-tennis-path)
 12. **附錄**: 常見問題解答和推薦資源
-    - [常見問題解答](https://txs.github.io/soft-tennis-guide/appendix/faq)
-    - [推薦資源](https://txs.github.io/soft-tennis-guide/appendix/recommended-resources)
+    - [常見問題解答](https://soft-tennis.andys.pro/appendix/faq)
+    - [推薦資源](https://soft-tennis.andys.pro/appendix/recommended-resources)
 
 ## 特色
 
@@ -53,7 +53,7 @@
 
 ## 如何使用
 
-1. 訪問 [軟式網球入門指南](https://txs.github.io/soft-tennis-guide/) 開始您的學習之旅。
+1. 訪問 [軟式網球入門指南](https://soft-tennis.andys.pro/) 開始您的學習之旅。
 2. 按照目錄順序閱讀，或直接跳轉到您感興趣的章節。
 3. 利用網站底部的評論功能分享您的想法或提問。
 
